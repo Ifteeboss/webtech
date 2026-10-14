@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+
+    <h1>Registration Form</h1>
+
+    <form>
+        <div>
+            <label for="fullname">Full name:</label>
+            <input type="text" name="fullname" id="fullname">
+        </div>
+
+        <div>
+            <label for="pwd">Password:</label>
+            <input type="password" name="pwd" id="pwd">
+        </div>
+
+        <div>
+            <label for="dob">Date of birth:</label>
+            <input type="date" name="dob" id="dob">
+        </div>
+
+        <div>
+            <label for="image">Choose photo:</label>
+            <input type="file" name="image" id="image">
+        </div>
+
+        <div>
+            <label>Gender:</label>
+            <input type="radio" name="gender" id="genderMale" value="Male">
+            <label for="genderMale" class="inline-label">Male</label>
+
+            <input type="radio" name="gender" id="genderFemale" value="Female">
+            <label for="genderFemale" class="inline-label">Female</label>
+        </div>
+
+        <div>
+            <label>Religion:</label>
+            <input type="checkbox" name="religion[]" id="islam" value="Islam">
+            <label for="islam" class="inline-label">Islam</label>
+
+            <input type="checkbox" name="religion[]" id="hindu" value="Hindu">
+            <label for="hindu" class="inline-label">Hindu</label>
+
+            <input type="checkbox" name="religion[]" id="buddha" value="Buddha">
+            <label for="buddha" class="inline-label">Buddha</label>
+        </div>
+
+        <div>
+            <label for="department">Department:</label>
+            <select name="department" id="department">
+                <option value="CSE" selected>CSE</option>
+                <option value="EEE">EEE</option>
+                <option value="BBA">BBA</option>
+            </select>
+        </div>
+        
+        <div>
+            <label for="address">Write down the address:</label>
+            <textarea name="address" id="address" rows="5"></textarea>
+        </div>
+        
+       <div class="button-group">
+            <input type="submit" value="Register">
+            <input type="reset" value="Clear">
+        </div>
+    </form> 
+
+</body>
+</html>

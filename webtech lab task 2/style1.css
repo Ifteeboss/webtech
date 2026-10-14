@@ -1,0 +1,47 @@
+body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: white;
+        }
+        h1 {
+            color: navy;
+            text-align: center;
+            text-decoration: underline;
+        }
+        form {
+            width: 700px;
+            margin: auto;
+            border: 2px solid black; /* Added 'solid' so the border appears */
+            padding: 20px; /* Removed space between 20 and px */
+            background-color: white;
+            border-radius: 30px;
+        }
+        label {
+            font-weight: bold;
+            color: black;
+        }
+        input,
+        select,
+        textarea {
+            margin-left: 30px;
+            padding: 5px;
+            border: 1px solid gray; /* Adjusted to match your image, 7px was very thick */
+            border-radius: 8px;
+        }
+        input[type="submit"] {
+            background-color: green;
+            color: white;
+            border: none;
+            border-radius: 15px 21px;
+            cursor: pointer;
+            padding: 8px 20px;
+        }
+        input[type="reset"] {
+            background-color: darkred;
+            color: white;
+            border: none;
+            border-radius: 15px 21px;
+            cursor: pointer;
+            padding: 8px 20px;
+            margin-left: 10px;
+        }
