@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f0f8ff;
+    color: #222;
+}
+h1 {
+    color: navy;
+    text-align: center;
+}
+form {
+    max-width: 500px;
+    margin: auto;
+    border: 1px solid #cbd5e1;
+    padding: 30px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(15, 23, 42, 0.08);
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    color: #333;
+    margin: 16px 0 6px;
+}
+
+input {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid #94a3b8;
+    border-radius: 6px;
+    font: inherit;
+}
+
+#booklist {
+    padding-left: 24px;
+}
+
+#message {
+    min-height: 1.5em;
+    color: #334155;
+}
+
+.actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+button {
+    padding: 10px 14px;
+    border: 0;
+    border-radius: 6px;
+    background: #1d4ed8;
+    color: white;
+    font: inherit;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #1e40af;
+}
+
+@media (max-width: 600px) {
+    form {
+        padding: 20px;
+    }
+}

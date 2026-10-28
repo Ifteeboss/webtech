@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library Book borrowing</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>Central Library Book borrowing</h1>
+
+    <form id="studentForm">
+
+        <label for="studentname">Student Name:</label>
+        <input type="text" id="studentname" name="studentname" required>
+
+        <label for="book">Book title:</label>
+        <input type="text" id="book" name="book">
+
+        <ul id="booklist" aria-label="Books to borrow"></ul>
+        <p id="message" role="status" aria-live="polite"></p>
+        <div class="actions">
+            <button type="button" onclick="addBook()">Add Book</button>
+            <button type="button" onclick="confirmBorrow()">Confirm Borrowing</button>
+        </div>
+
+    </form>
+    <h3>Available Books</h3>
+    <ul id="booklist"></ul>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
